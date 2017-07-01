@@ -1,6 +1,7 @@
-# My Portfolio
 
-Live DEMO : 
+# Portfolio
+
+Live DEMO : https://pozterz.github.io/Portfolio/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
