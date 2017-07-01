@@ -1,0 +1,12 @@
+<h1 class="title"> <i class="fa fa-github"></i> {{ title }}</h1>
+<div class="columns is-multiline ">
+	<div class="column is-one-quarter" *ngFor="let a of repos">
+		<a [href]="a.html_url">
+			<div class="box outline-effect">
+			    <i [ngClass]="a.fork?'fa fa-code-fork':'fa fa-book'" style="color:#90EE90;"></i>
+			  	{{ a.name }}
+			</div>
+		</a>
+	</div>
+</div>
+
